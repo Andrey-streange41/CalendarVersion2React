@@ -1,0 +1,15 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.backgroundPart{
+    background-color: #F5F5F5;
+    width: 475px;
+    min-width: 475px;
+    height: 580px;
+    margin-top: -10px;
+}

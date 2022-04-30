@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Ropa Sans', sans-serif;
+}
+
+.backPart{
+    background-color: #38CEC4;
+    width: 475px;
+    min-width: 475px;
+    height: 590px;
+    margin-left: 2%;
+}
+
+.backPart>section{
+    color: white;
+}
+
+.backPart>section:first-child{
+    font-size: 50px;
+    margin-top: 15%;
+    opacity: 0.8;
+}
+
+.backPart>section:last-child{
+    font-size: 310px;
+    margin-top: 10%;
+    font-style:normal;
+}

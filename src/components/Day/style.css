@@ -1,0 +1,18 @@
+.day{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(163, 163, 163);
+   
+    width: 45px;
+    min-width: 45px;
+    max-width: 45px;
+    text-align: center;
+    border: solid red 2px;
+    
+}
+
+.selectedDay{
+    border: solid red 4px;
+    color: red;
+    border-radius: 50%;
+}
