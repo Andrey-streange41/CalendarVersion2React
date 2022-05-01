@@ -5,7 +5,12 @@ import Day from "../Day";
 class Week extends React.Component {
   constructor(props) {
     super(props);
-    this.daysList = [];
+   
+    
+  }
+
+  render() {
+     this.daysList = [];
 
     if (this.props.weekCounter === 0) {
       for (let i = 0; i < 7; i++) {
@@ -80,9 +85,6 @@ class Week extends React.Component {
         
       }
     }
-  }
-
-  render() {
     return <section className="week-container">{this.daysList}</section>;
   }
 }
